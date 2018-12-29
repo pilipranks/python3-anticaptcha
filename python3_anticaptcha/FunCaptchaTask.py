@@ -24,7 +24,7 @@ class FunCaptchaTask:
 		self.task_payload = {"clientKey": anticaptcha_key,
 							 "task":
 								 {
-									 "type": "FunCaptchaTask",
+									 "type": "FunCaptchaTaskProxyless",
 								 },
 							 "softId": app_key
 							 }
